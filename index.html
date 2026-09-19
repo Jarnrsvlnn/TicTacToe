@@ -4,10 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/src/style.css">
 </head>
-<body>
-    <h1>Hello</h1>
+<body class="flex items-center h-screen">
+    <div class="gameboard grid grid-cols-3 m-auto h-100 w-100 border">
+        <div class="field border-2 border-red-800"></div>
+        <div class="field border-2 border-red-800"></div>
+        <div class="field border-2 border-red-800"></div>
+        <div class="field border-2 border-red-800"></div>
+        <div class="field border-2 border-red-800"></div>
+        <div class="field border-2 border-red-800"></div>
+        <div class="field border-2 border-red-800"></div>
+        <div class="field border-2 border-red-800"></div>
+        <div class="field border-2 border-red-800"></div>
+    </div>
+
+    <script type="module" src="/script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
